@@ -23,6 +23,15 @@
 	
 	<context:component-scan base-package="com.spring.di" />
 	
+	<beans:bean id="diSampleClass1_1" class="com.spring.di.DiSampleClass1">
+		<beans:property name="id" value="qwer1234" />
+		<beans:property name="pw" value="q1w2e3r4" />
+		<beans:property name="name" value="팀 버너스 리" />
+	</beans:bean>
 	
-	
+	<beans:bean id="diSampleClass1_2" class="com.spring.di.DiSampleClass1">
+		<beans:property name="id" value="asdf1234" />
+		<beans:property name="pw" value="1111" />
+		<beans:property name="name" value="제임스 고슬링" />
+	</beans:bean>
 </beans:beans>
